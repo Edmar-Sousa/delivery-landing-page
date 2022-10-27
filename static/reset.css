@@ -1,0 +1,71 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root, 
+html {
+    --orange-dark-color: #b16005;
+    --orange-color: #ca6e05;
+    --primary-color: #f4d287;
+    --white-color: #fff;
+    --gray-color: #585858;
+
+    font-size: 62.5%;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    overflow-x: hidden;
+}
+
+.title-small {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: var(--orange-color);
+}
+
+.legend {
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+
+    font-weight: bold;
+    font-size: 1.2rem;
+
+    border-radius: 5px;
+    border: none;
+
+    background: var(--orange-color);
+    color: var(--white-color);
+
+    cursor: pointer;
+}
+
+.button:hover {
+    background: var(--orange-dark-color);
+    transform: scale(0.98);
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+@media (min-width: 425px) {
+    :root, 
+    html {
+        font-size: 70.5%;
+    }
+}
