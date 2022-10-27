@@ -1,4 +1,4 @@
-# Voting App
+# landing page delivery
 <p>
 Esse projeto consiste em uma landing page para um app de delivery. 
 O objetivo era criar uma landing page com animações durante o scroll da pagina, a medida que o usuario navega entre a pagina.
@@ -7,7 +7,7 @@ Foi utilizado a lib AOS para criar as animações dos elementos a partir do scro
 
 
 ## design
-![home-page]()
+![home-page](https://github.com/Edmar-Sousa/delivery-landing-page/blob/main/readme.gif)
 
 ## Tecnologias usadas
 - Vite 
